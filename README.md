@@ -6,4 +6,5 @@ Welcome to my portfolio project! This repository showcases my skills and project
 - **JAVASCRIPT** 
 
 ## ~Current Progress
+
 Currently, I am working on: 
