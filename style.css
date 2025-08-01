@@ -1,17 +1,105 @@
 *{
 margin: 0;
 padding: 0;
-font-family: 'Times New Roman', Times, serif;
-background-color: rgb(22, 22, 22);
+box-sizing: border-box;
 color: white;
+font-family: "General Sans";
 }
-h1 {
-text-align: center;
-margin-bottom: 4px;
-font-family: 'Times New Roman', Times, serif;
+html body{
+height: 100%;
+    width: 100%;
 }
-h3{
-    text-align: center;
- 
 
+#main{
+width: 100%;
+
+
+}
+#hero{
+width: 100%;
+height: 100vh;
+background-color: black;
+}
+#nav{
+    padding: 20px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+a{
+    text-decoration: none;
+}
+#heading{
+margin-top: 70px;
+
+
+}
+
+#heading h1{
+    margin-left: 30px;
+    opacity: .9;
+    line-height: 1;
+    font-family: "General Sans Medium";
+font-size: 14vh;
+text-transform: uppercase;
+font-weight: 900;
+margin-bottom: 0;
+}
+#heading #n{
+
+margin-left: 150px;
+
+}
+#blocktext{
+    width: fit-content;
+}
+#blocktext h5{ 
+    opacity: .9;
+    line-height: 1;
+    font-family: "General Sans Medium";
+text-transform: uppercase;
+font-weight: 90;
+    text-align: right;
+    color: rgb(252, 47, 47);
+}
+#social{
+display: flex;
+padding: 0 2vh;
+align-items: center;
+justify-content: space-between;
+text-transform: uppercase;
+position: absolute;
+bottom: 3%;
+width: 100%;
+}
+#social a{
+
+    text-transform: uppercase;
+
+}
+#second{
+    padding-top: 100px;
+    padding-right: 10vh;
+    background-color:black;
+    height: 100vh;
+    width: 100%;
+}
+.aboutme{
+    
+width: 100%;
+border-top: 1px solid #888;
+padding: 3.5vw 3vw;
+padding-right: 0;
+}
+.aboutme div h1{
+    text-transform: uppercase;
+    font-size: 5vh;
+    opacity: 0.9;
+
+}
+.last{
+    border-bottom: 1px solid #888;
 }
